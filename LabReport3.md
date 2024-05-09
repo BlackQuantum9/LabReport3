@@ -55,4 +55,19 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-}
+5. Briefly describe (2-3 sentences) why the fix addresses the issue.
+   
+## Part 2 - Researching Commands
+* -c: This prints only a count of the lines that match a pattern.
+```
+audreyliu@Audreys-MacBook-Pro technical % grep -c -r "search" | head -n 5
+./government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt:0
+./government/About_LSC/Progress_report.txt:4
+./government/About_LSC/Strategic_report.txt:5
+./government/About_LSC/Comments_on_semiannual.txt:0
+./government/About_LSC/Special_report_to_congress.txt:1
+```
+
+
+
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
